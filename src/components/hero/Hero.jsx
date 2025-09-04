@@ -96,7 +96,7 @@ const Hero = () => {
             gyroscope={true}
           >
             <img
-              src="./src/assets/profile-img.png"
+              src="/profile-img.png"
               alt="profile image"
               className='w-3xl h-1/1 object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
             />

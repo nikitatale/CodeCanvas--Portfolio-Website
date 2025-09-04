@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="text-white py-5 flex justify-between items-center">
         <div className="cursor-pointer">
            <span className="flex items-center gap-2">
-          <img src="../src/assets/logo.svg" alt="Logo" className="w-9"/>
+          <img src="/logo.svg" alt="Logo" className="w-9"/>
           <span className="font-semibold">CodeCanvas</span>
         </span>
         </div>
