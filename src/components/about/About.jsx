@@ -24,7 +24,7 @@ const About = () => {
         >
       
           <img
-            src="/user-image.png"
+            src="/user.png"
             alt="about image"
             className="w-100 h-1/1 object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
           

@@ -4,6 +4,7 @@ import Tilt from 'react-parallax-tilt'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 const Hero = () => {
   useEffect(() => {
     AOS.init({
@@ -96,7 +97,7 @@ const Hero = () => {
             gyroscope={true}
           >
             <img
-              src="/profile-img.png"
+              src="/profile.png"
               alt="profile image"
               className='w-3xl h-1/1 object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
             />

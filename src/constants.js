@@ -1,3 +1,27 @@
+//Skills Section Logo's
+import html from "./assets/tech_logo/html.png";
+import css from "./assets/tech_logo/css.png";
+import javaScript from "./assets/tech_logo/javascript.png";
+import reactJs from "./assets/tech_logo/reactjs.png";
+import redux from "./assets/tech_logo/redux.png";
+import bootstrap from "./assets/tech_logo/bootstrap.png";
+import tailwind from "./assets/tech_logo/tailwindcss.png";
+import materialUi from "./assets/tech_logo/materialui.png";
+
+import node from "./assets/tech_logo/nodejs.png";
+import express from "./assets/tech_logo/express.png";
+import mongoose from "./assets/tech_logo/mongoose.webp";
+import mongodb from "./assets/tech_logo/mongodb.png";
+import mySql from "./assets/tech_logo/mysql.png";
+import postgrSql from "./assets/tech_logo/postgre.png";
+
+import git from "./assets/tech_logo/git.png";
+import github from "./assets/tech_logo/github.png";
+import postman from "./assets/tech_logo/postman.png";
+import compass from "./assets/tech_logo/mc.png";
+import vsCode from "./assets/tech_logo/vscode.png";
+import vercel from "./assets/tech_logo/vercel.png";
+
 // Experience Section Logo's
 import accenture from './assets/company_logo/Accenture-logo.png';
 import techplement from './assets/company_logo/techplement-logo.png';
@@ -16,6 +40,37 @@ import project3 from './assets/work_logo/project3.png';
 import project4 from './assets/work_logo/project4.png';
 import project5 from './assets/work_logo/project5.png';
 import project6 from './assets/work_logo/project6.png';
+
+
+ export const skills = {
+    Frontend: [
+      { name: "HTML", img: html },
+      { name: "CSS", img: css },
+      { name: "JavaScript", img: javaScript },
+      { name: "React JS", img: reactJs },
+      { name: "Redux", img: redux },
+      { name: "Bootstrap", img: bootstrap },
+      { name: "Tailwind CSS", img:  tailwind},
+      { name: "Material UI", img: materialUi}
+    ],
+    Backend: [
+      { name: "Node JS", img: node },
+      { name: "Express JS", img: express },
+      { name: "Mongoose", img: mongoose },
+      { name: "MongoDB", img: mongodb },
+      { name: "MySQL", img: mySql },
+      { name: "Postgre SQL", img: postgrSql },
+    ],
+  
+    Tools: [
+      { name: "Git", img: git },
+      { name: "GitHub", img: github },
+      { name: "Postman", img:  postman  },
+      { name: "Compass", img: compass },
+      { name: "VS Code", img: vsCode },
+      { name: "Vercel", img: vercel },
+    ]
+  };
 
 
   export const experiences = [

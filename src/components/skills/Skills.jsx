@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Tilt from "react-parallax-tilt";
+import { skills } from "../../constants";
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("Frontend");
@@ -10,36 +11,7 @@ const Skills = () => {
     AOS.init({ duration: 800, once: true });
   }, []);
 
-  const skills = {
-    Frontend: [
-      { name: "HTML", img: "./src/assets/tech_logo/html.png" },
-      { name: "CSS", img: "./src/assets/tech_logo/css.png" },
-      { name: "JavaScript", img: "./src/assets/tech_logo/javascript.png" },
-      { name: "React JS", img: "./src/assets/tech_logo/reactjs.png" },
-      { name: "Redux", img: "./src/assets/tech_logo/redux.png" },
-      { name: "Bootstrap", img: "./src/assets/tech_logo/bootstrap.png" },
-      { name: "Tailwind CSS", img: "./src/assets/tech_logo/tailwindcss.png" },
-      { name: "Material UI", img: "./src/assets/tech_logo/materialui.png"}
-    ],
-    Backend: [
-      { name: "Node JS", img: "./src/assets/tech_logo/nodejs.png" },
-      { name: "Express JS", img: "./src/assets/tech_logo/express.png" },
-      { name: "Mongoose", img: "./src/assets/tech_logo/mongoose.webp" },
-      { name: "MongoDB", img: "./src/assets/tech_logo/mongodb.png" },
-      { name: "MySQL", img: "./src/assets/tech_logo/mysql.png" },
-      { name: "Postgre SQL", img: "./src/assets/tech_logo/postgre.png" },
-    ],
-  
-    Tools: [
-      { name: "Git", img: "./src/assets/tech_logo/git.png" },
-      { name: "GitHub", img: "./src/assets/tech_logo/github.png" },
-      { name: "Postman", img: "./src/assets/tech_logo/postman.png" },
-      { name: "Compass", img: "./src/assets/tech_logo/mc.png" },
-      { name: "VS Code", img: "./src/assets/tech_logo/vscode.png" },
-      { name: "Vercel", img: "./src/assets/tech_logo/vercel.png" },
-    ]
-  };
-
+ 
   return (
     <section
       className="py-16 px-[7vw] lg:px-[20vw] text-center clip-path-custom"
