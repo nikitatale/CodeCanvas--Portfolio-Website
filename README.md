@@ -1,17 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# CodeCanvas - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CodeCanvas** is my personal portfolio website showcasing my web development projects, skills, and experience.  
+Built with **React**, **Tailwind CSS**, and integrated with **EmailJS** for a functional contact form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Responsive and modern design  
+- Smooth scrolling navigation  
+- Contact form powered by EmailJS  
+- Projects section highlighting my work  
+- Integrated social links (LinkedIn, GitHub)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# CodeCanvas--Portfolio-Website
-My personal portfolio website showcasing my web development projects, skills, and experience. Built with React, Tailwind CSS, and integrated with EmailJS for contact functionality.
->>>>>>> ecc61f59e96fbe4e8499afc76f48e768d3e11a91
+---
+
+## 💻 Technologies Used
+
+- **React** - Frontend framework  
+- **Tailwind CSS** - Utility-first CSS framework  
+- **EmailJS** - For sending emails from the contact form  
+- **React Icons** - Social and UI icons  
+- **Vite** - Build tool for fast development  
+
+---
