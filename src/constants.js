@@ -1,0 +1,172 @@
+// Experience Section Logo's
+import accenture from './assets/company_logo/Accenture-logo.png';
+import techplement from './assets/company_logo/techplement-logo.png';
+
+// Education Section Logo's
+import eduImage from './assets/education_logo/sgbau.jpg';
+import certificate1 from './assets/education_logo/achivement-1.png';
+import certificate2 from './assets/education_logo/achivement-2.png';
+import certificate3 from './assets/education_logo/achivement-3.png';
+import certificate4 from './assets/education_logo/achivement-4.png';
+
+// Project Section Logo's
+import project1 from './assets/work_logo/project1.png';
+import project2 from './assets/work_logo/project2.png';
+import project3 from './assets/work_logo/project3.png';
+import project4 from './assets/work_logo/project4.png';
+import project5 from './assets/work_logo/project5.png';
+import project6 from './assets/work_logo/project6.png';
+
+
+  export const experiences = [
+    {
+      id: 0,
+      img: accenture,
+      role: "Virtual Experience Program",
+      company: "Accenture New York, United States",
+      date: "Oct 2024 - Nov 2024",
+      desc: "Analyzed user experience (UX) challenges and proposed innovative design solutions to improve usability. Designed and implemented 5+ reusable UI components, improving development efficiency and reducing time. ",
+      skills: [
+        "User Interface Design",
+        "Critical Thinking",
+        "User Requirements",
+        "Web Development",
+        "Product Development",
+        "Project Management",
+        "Software Development Life Cycle (SDLC)",
+        "Databases",
+      ],
+    },
+    {
+      id: 1,
+      img: techplement,
+      role: "Frontend Developer Intern",
+      company: "TECHPLEMENT",
+      date: "Dec 2024 - Jan 2025",
+      desc: "Led front-end development for a live resume builder tool, contributing to 100+ user sign-ups within the first month. Developed and maintained responsive web applications using technical skills and Implemented API integrations.",
+      skills: [
+        "HTML",
+        "CSS",
+        "SQL",
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Tailwind CSS",
+        "Team Leadership",
+        "Front-End Development"
+      ],
+    },
+  ];
+  
+  export const education = [
+    {
+      id: 0,
+      img: eduImage,
+      degree: "Bachelor of Computer Application (BCA)",
+      date: "Aug 2021 - April 2024",
+      desc: "I completed my Bachelor of Computer Applications (BCA) in 2024 from Shankarlal Khandelwal College, Akola. During my studies, I gained strong knowledge in computer applications, programming, database management, and web development.",
+    },
+
+    {
+      id: 1,
+      img: certificate1,
+      date: "Aug 2024",
+      desc: "I have completed the Responsive Web Design Developer certification from FreeCodeCamp, gaining practical skills in HTML, CSS, Flexbox, Grid, and responsive design techniques to build modern, mobile-friendly websites.",
+      degree: "FreeCodeCamp - Web Development Certification",
+    },
+
+    {
+      id: 2,
+      img: certificate2,
+      date: "July 2025",
+      desc: "Gained expertise in full-stack web development, covering HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Built real-world projects and gained hands-on experience in developing responsive, dynamic, and data-driven web applications.",
+      degree: "Delta Full Stack Development Program ",
+    },
+
+    {
+      id: 3,
+      img: certificate3,
+      date: "Oct 2024",
+      desc: "I completed a virtual internship at Accenture in October 2024, where I worked on real-world projects, gained hands-on experience in web development & project management, and strengthened my professional and technical skills in a corporate environment.",
+      degree: "Internship - Accenture (Virtual Project Intern)",
+    },
+
+    {
+      id: 4,
+      img: certificate4,
+      date: "Dec 2021",
+      desc: "I completed a frontend developer internship at Techplement in December 2024, where I gained hands-on experience in HTML, CSS, JavaScript, and responsive web design, contributing to real-world web development projects.",
+      degree: "Internship - Techplement (Frontend Developer Intern)",
+    },
+
+    
+  ];
+  
+  export const projects = [
+    {
+      id: 0,
+      title: "QuickBlog - A blog on stories",
+      description:
+       "A modern, fast, and user-friendly blogging website built with the MERN stack (MongoDB, Express.js, React.js, Node.js). QuickBlog allows users to create, edit, delete, and comment blog posts seamlessly with a sleek interface and secure user authentication.",
+      image: project1,
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "more.."],
+      github: "https://github.com/nikitatale/QuickBlog-Website",
+      webapp: "https://quick-blog-website.vercel.app/",
+      isHosted: true
+    }, 
+    {
+      id: 1,
+      title: "CARVIX - Car Rental Website",
+      description:
+        "Carvix is a full-featured car rental platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse, book, and manage rental cars easily with a seamless, modern UI and secure backend.",
+      image: project2,
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "dotenv", "more.."],
+      github: "https://github.com/nikitatale/CARVIX-Car-Rental-Website",
+      webapp: "https://carvix-car-rental-website.vercel.app/",
+      isHosted: true
+    }, 
+    {
+      id: 2,
+      title: "Bookease Hotel Booking Website",
+      description:
+       "Bookease is a modern and responsive hotel booking website built with a focus on smooth user experience. It includes core frontend features with basic backend integration for user login functionality.",
+      image: project3,
+      tags: ["React JS","User login system", "basic backend functionality"],
+      github: "https://github.com/nikitatale/Hotel-Booking",
+      webapp: "https://bookease-hotel-booking-website.vercel.app/",
+      isHosted: true
+    },
+
+    {
+      id: 3,
+      title: "EcoNest-Ecommerce",
+      description:
+       "EcoNest-Ecommerce is a modern home decor and essentials platform built with HTML, CSS, JavaScript, and Bootstrap for a seamless and responsive shopping experience. It offers eco-friendly furniture, elegant decor, and kitchen essentials with secure payments and fast delivery. Explore sustainable living with style!",
+      image: project4,
+      tags: ["HTML", "CSS", "JavaScript", ],
+      github: "https://github.com/nikitatale/EcoNest-Ecommerce",
+      isHosted: false
+    },
+
+    {
+      id: 4,
+      title: "Savorly-Food-Website",
+      description:
+        "A modern and responsive food website for Savorly — built with HTML, CSS, JS and Bootstrap, showcasing rich visuals, interactive animations, and user-friendly design.",
+      image: project5,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      isHosted: false
+    },
+
+   {
+      id: 5,
+      title: "Nike-Website-Clone",
+      description:
+      "A modern, responsive Nike website clone built with React and Tailwind CSS, showcasing high-quality footwear products with sleek design and smooth user experience. Perfect for learning component-based UI development and utility-first CSS styling.",
+      image: project6,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/nikitatale/nike-website-clone",
+      isHosted: false
+    },
+  ];  
