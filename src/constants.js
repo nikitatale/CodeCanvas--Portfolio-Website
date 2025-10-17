@@ -40,6 +40,7 @@ import project3 from './assets/work_logo/project3.png';
 import project4 from './assets/work_logo/project4.png';
 import project5 from './assets/work_logo/project5.png';
 import project6 from './assets/work_logo/project6.png';
+import project7 from './assets/work_logo/project7.png';
 
 
  export const skills = {
@@ -180,8 +181,19 @@ import project6 from './assets/work_logo/project6.png';
       webapp: "https://carvix-car-rental-website.vercel.app/",
       isHosted: true
     }, 
-    {
+     {
       id: 2,
+      title: "Meetra-Web",
+      description:
+      "Meetra Web is a real-time video calling and chat web app built with React, Express, and Socket.io. It allows users to join meetings as guests or through authentication, enabling seamless video communication, instant messaging, and user management powered by MongoDB and WebRTC.",
+      image: project7,
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "WebRTC", "Socket.IO.."],
+      github: "https://github.com/nikitatale/Meetra-Web",
+      webapp: "https://meetra-web-frontend.onrender.com/",
+      isHosted: true
+    },
+    {
+      id: 3,
       title: "Bookease Hotel Booking Website",
       description:
        "Bookease is a modern and responsive hotel booking website built with a focus on smooth user experience. It includes core frontend features with basic backend integration for user login functionality.",
@@ -193,7 +205,7 @@ import project6 from './assets/work_logo/project6.png';
     },
 
     {
-      id: 3,
+      id: 4,
       title: "EcoNest-Ecommerce",
       description:
        "EcoNest-Ecommerce is a modern home decor and essentials platform built with HTML, CSS, JavaScript, and Bootstrap for a seamless and responsive shopping experience. It offers eco-friendly furniture, elegant decor, and kitchen essentials with secure payments and fast delivery. Explore sustainable living with style!",
@@ -204,7 +216,7 @@ import project6 from './assets/work_logo/project6.png';
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Savorly-Food-Website",
       description:
         "A modern and responsive food website for Savorly — built with HTML, CSS, JS and Bootstrap, showcasing rich visuals, interactive animations, and user-friendly design.",
@@ -215,7 +227,7 @@ import project6 from './assets/work_logo/project6.png';
     },
 
    {
-      id: 5,
+      id: 6,
       title: "Nike-Website-Clone",
       description:
       "A modern, responsive Nike website clone built with React and Tailwind CSS, showcasing high-quality footwear products with sleek design and smooth user experience. Perfect for learning component-based UI development and utility-first CSS styling.",
