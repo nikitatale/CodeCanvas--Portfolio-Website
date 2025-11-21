@@ -200,7 +200,7 @@ import project8 from './assets/work_logo/project8.png';
       description:
       "PingPoint is a full-stack real-time chat application built with modern technologies to provide seamless communication. It’s designed for speed, security, and scalability, featuring user authentication, media sharing, and real-time messaging.",
       image: project8,
-      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Clerk", "Imagekit", "Multer"],
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Clerk", "Imagekit"],
       github: "https://github.com/nikitatale/pingpoint-chat-app",
       webapp: "https://chat-app-nine-dusky-33.vercel.app/",
       isHosted: true
