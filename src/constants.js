@@ -41,6 +41,7 @@ import project4 from './assets/work_logo/project4.png';
 import project5 from './assets/work_logo/project5.png';
 import project6 from './assets/work_logo/project6.png';
 import project7 from './assets/work_logo/project7.png';
+import project8 from './assets/work_logo/project8.png';
 
 
  export const skills = {
@@ -192,8 +193,19 @@ import project7 from './assets/work_logo/project7.png';
       webapp: "https://meetra-web-frontend.onrender.com/",
       isHosted: true
     },
+
     {
       id: 3,
+      title: "PingPoint-Chat-App",
+      description:
+      "PingPoint is a full-stack real-time chat application built with modern technologies to provide seamless communication. It’s designed for speed, security, and scalability, featuring user authentication, media sharing, and real-time messaging.",
+      image: project8,
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Clerk", "Imagekit", "Multer"],
+      github: "https://github.com/nikitatale/pingpoint-chat-app",
+      isHosted: true
+    },
+    {
+      id: 4,
       title: "Bookease Hotel Booking Website",
       description:
        "Bookease is a modern and responsive hotel booking website built with a focus on smooth user experience. It includes core frontend features with basic backend integration for user login functionality.",
@@ -205,7 +217,7 @@ import project7 from './assets/work_logo/project7.png';
     },
 
     {
-      id: 4,
+      id: 5,
       title: "EcoNest-Ecommerce",
       description:
        "EcoNest-Ecommerce is a modern home decor and essentials platform built with HTML, CSS, JavaScript, and Bootstrap for a seamless and responsive shopping experience. It offers eco-friendly furniture, elegant decor, and kitchen essentials with secure payments and fast delivery. Explore sustainable living with style!",
@@ -216,7 +228,7 @@ import project7 from './assets/work_logo/project7.png';
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Savorly-Food-Website",
       description:
         "A modern and responsive food website for Savorly — built with HTML, CSS, JS and Bootstrap, showcasing rich visuals, interactive animations, and user-friendly design.",
@@ -227,7 +239,7 @@ import project7 from './assets/work_logo/project7.png';
     },
 
    {
-      id: 6,
+      id: 7,
       title: "Nike-Website-Clone",
       description:
       "A modern, responsive Nike website clone built with React and Tailwind CSS, showcasing high-quality footwear products with sleek design and smooth user experience. Perfect for learning component-based UI development and utility-first CSS styling.",
