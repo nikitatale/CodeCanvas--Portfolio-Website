@@ -202,6 +202,7 @@ import project8 from './assets/work_logo/project8.png';
       image: project8,
       tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Clerk", "Imagekit", "Multer"],
       github: "https://github.com/nikitatale/pingpoint-chat-app",
+      webapp: "https://chat-app-nine-dusky-33.vercel.app/",
       isHosted: true
     },
     {
