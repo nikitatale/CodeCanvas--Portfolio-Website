@@ -37,11 +37,12 @@ import certificate4 from './assets/education_logo/achivement-4.png';
 import project1 from './assets/work_logo/project1.png';
 import project2 from './assets/work_logo/project2.png';
 import project3 from './assets/work_logo/project3.png';
-import project4 from './assets/work_logo/project4.png';
-import project5 from './assets/work_logo/project5.png';
-import project6 from './assets/work_logo/project6.png';
+// import project4 from './assets/work_logo/project4.png';
+// import project5 from './assets/work_logo/project5.png';
+// import project6 from './assets/work_logo/project6.png';
 import project7 from './assets/work_logo/project7.png';
 import project8 from './assets/work_logo/project8.png';
+import project9 from './assets/work_logo/project9.png';
 
 
  export const skills = {
@@ -162,6 +163,17 @@ import project8 from './assets/work_logo/project8.png';
   export const projects = [
     {
       id: 0,
+      title: "ApnaStay - Find Your Perfect Stay!",
+      description:
+       "Discover unique stays, cozy homes, and premium accommodations with ApnaStay, your go-to platform for hassle-free vacation rentals. Browse listings, explore locations. Powered by a full MERN stack for a smooth, responsive experience.",
+      image: project9,
+      tags: ["MongoDB", "Express.js", "EJS", "Node.js", "Bootstrap", "MVC"],
+      github: "https://github.com/nikitatale/ApnaStay",
+      webapp: "https://apnastay-js16.onrender.com/listings",
+      isHosted: true
+    }, 
+    {
+      id: 1,
       title: "QuickBlog - A blog on stories",
       description:
        "A modern, fast, and user-friendly blogging website built with the MERN stack (MongoDB, Express.js, React.js, Node.js). QuickBlog allows users to create, edit, delete, and comment blog posts seamlessly with a sleek interface and secure user authentication.",
@@ -171,19 +183,8 @@ import project8 from './assets/work_logo/project8.png';
       webapp: "https://quick-blog-website.vercel.app/",
       isHosted: true
     }, 
-    {
-      id: 1,
-      title: "CARVIX - Car Rental Website",
-      description:
-        "Carvix is a full-featured car rental platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse, book, and manage rental cars easily with a seamless, modern UI and secure backend.",
-      image: project2,
-      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "dotenv", "more.."],
-      github: "https://github.com/nikitatale/CARVIX-Car-Rental-Website",
-      webapp: "https://carvix-car-rental-website.vercel.app/",
-      isHosted: true
-    }, 
      {
-      id: 2,
+      id: 3,
       title: "Meetra-Web",
       description:
       "Meetra Web is a real-time video calling and chat web app built with React, Express, and Socket.io. It allows users to join meetings as guests or through authentication, enabling seamless video communication, instant messaging, and user management powered by MongoDB and WebRTC.",
@@ -194,8 +195,20 @@ import project8 from './assets/work_logo/project8.png';
       isHosted: true
     },
 
+     {
+      id: 2,
+      title: "CARVIX - Car Rental Website",
+      description:
+        "Carvix is a full-featured car rental platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse, book, and manage rental cars easily with a seamless, modern UI and secure backend.",
+      image: project2,
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "dotenv", "more.."],
+      github: "https://github.com/nikitatale/CARVIX-Car-Rental-Website",
+      webapp: "https://carvix-car-rental-website.vercel.app/",
+      isHosted: true
+    }, 
+
     {
-      id: 3,
+      id: 4,
       title: "PingPoint-Chat-App",
       description:
       "PingPoint is a full-stack real-time chat application built with modern technologies to provide seamless communication. It’s designed for speed, security, and scalability, featuring user authentication, media sharing, and real-time messaging.",
@@ -206,7 +219,7 @@ import project8 from './assets/work_logo/project8.png';
       isHosted: true
     },
     {
-      id: 4,
+      id: 5,
       title: "Bookease Hotel Booking Website",
       description:
        "Bookease is a modern and responsive hotel booking website built with a focus on smooth user experience. It includes core frontend features with basic backend integration for user login functionality.",
@@ -217,36 +230,36 @@ import project8 from './assets/work_logo/project8.png';
       isHosted: true
     },
 
-    {
-      id: 5,
-      title: "EcoNest-Ecommerce",
-      description:
-       "EcoNest-Ecommerce is a modern home decor and essentials platform built with HTML, CSS, JavaScript, and Bootstrap for a seamless and responsive shopping experience. It offers eco-friendly furniture, elegant decor, and kitchen essentials with secure payments and fast delivery. Explore sustainable living with style!",
-      image: project4,
-      tags: ["HTML", "CSS", "JavaScript", ],
-      github: "https://github.com/nikitatale/EcoNest-Ecommerce",
-      isHosted: false
-    },
+  //   {
+  //     id: 6,
+  //     title: "EcoNest-Ecommerce",
+  //     description:
+  //      "EcoNest-Ecommerce is a modern home decor and essentials platform built with HTML, CSS, JavaScript, and Bootstrap for a seamless and responsive shopping experience. It offers eco-friendly furniture, elegant decor, and kitchen essentials with secure payments and fast delivery. Explore sustainable living with style!",
+  //     image: project4,
+  //     tags: ["HTML", "CSS", "JavaScript", ],
+  //     github: "https://github.com/nikitatale/EcoNest-Ecommerce",
+  //     isHosted: false
+  //   },
 
-    {
-      id: 6,
-      title: "Savorly-Food-Website",
-      description:
-        "A modern and responsive food website for Savorly — built with HTML, CSS, JS and Bootstrap, showcasing rich visuals, interactive animations, and user-friendly design.",
-      image: project5,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      isHosted: false
-    },
+  //   {
+  //     id: 7,
+  //     title: "Savorly-Food-Website",
+  //     description:
+  //       "A modern and responsive food website for Savorly — built with HTML, CSS, JS and Bootstrap, showcasing rich visuals, interactive animations, and user-friendly design.",
+  //     image: project5,
+  //     tags: ["HTML", "CSS", "JavaScript"],
+  //     github: "https://github.com/codingmastr/Task-Reminder-Tool",
+  //     isHosted: false
+  //   },
 
-   {
-      id: 7,
-      title: "Nike-Website-Clone",
-      description:
-      "A modern, responsive Nike website clone built with React and Tailwind CSS, showcasing high-quality footwear products with sleek design and smooth user experience. Perfect for learning component-based UI development and utility-first CSS styling.",
-      image: project6,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/nikitatale/nike-website-clone",
-      isHosted: false
-    },
+  //  {
+  //     id: 8,
+  //     title: "Nike-Website-Clone",
+  //     description:
+  //     "A modern, responsive Nike website clone built with React and Tailwind CSS, showcasing high-quality footwear products with sleek design and smooth user experience. Perfect for learning component-based UI development and utility-first CSS styling.",
+  //     image: project6,
+  //     tags: ["HTML", "CSS", "JavaScript"],
+  //     github: "https://github.com/nikitatale/nike-website-clone",
+  //     isHosted: false
+  //   },
   ];  
