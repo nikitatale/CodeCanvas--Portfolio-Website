@@ -66,7 +66,7 @@ const Hero = () => {
           </p>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1jgxRVr82ZS2xwz_oXOTSSl2jT6B42Ksv"
+            href="#"
             target='_blank'
             rel="noopener noreferrer"
             className='inline-block text-white py-3 rounded-full mt-2 px-8 text-lg font-bold transition duration-300 transform hover:scale-105'
