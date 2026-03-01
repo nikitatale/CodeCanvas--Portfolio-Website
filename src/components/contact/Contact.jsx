@@ -6,12 +6,6 @@ import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 
 const contactInfo = [
   {
-    icon: <FaMailBulk className="text-2xl text-gray-400" /> ,
-    label: "Email",
-    value: "talenikita3@gmail.com ",
-    href: "mailto:talenikita3@gmail.com ",
-  },
-  {
     icon: <FaLinkedin className="text-2xl text-gray-400" />,
     label: "LinkedIn",
     value: "nikita-tale",
