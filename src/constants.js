@@ -32,6 +32,7 @@ import certificate1 from './assets/education_logo/achivement-1.png';
 import certificate2 from './assets/education_logo/achivement-2.png';
 import certificate3 from './assets/education_logo/achivement-3.png';
 import certificate4 from './assets/education_logo/achivement-4.png';
+import certificate5 from './assets/education_logo/achievement-5.png';
 
 // Project Section Logo's
 import project1 from './assets/work_logo/project1.png';
@@ -43,6 +44,7 @@ import project3 from './assets/work_logo/project3.png';
 import project7 from './assets/work_logo/project7.png';
 import project8 from './assets/work_logo/project8.png';
 import project9 from './assets/work_logo/project9.png';
+import project10 from './assets/work_logo/project10.png';
 
 
  export const skills = {
@@ -126,11 +128,11 @@ import project9 from './assets/work_logo/project9.png';
     },
 
     {
-      id: 1,
-      img: certificate1,
-      date: "Aug 2024",
-      desc: "I have completed the Responsive Web Design Developer certification from FreeCodeCamp, gaining practical skills in HTML, CSS, Flexbox, Grid, and responsive design techniques to build modern, mobile-friendly websites.",
-      degree: "FreeCodeCamp - Web Development Certification",
+      id: 5,
+      img: certificate5,
+      degree: "The Complete Full-Stack Web Development Bootcamp",
+      date: "Oct 2024 - Dec 2025",
+      desc: "I have successfully completed The Complete Full-Stack Web Development Bootcamp from Udemy, where I gained hands-on experience in HTML5, CSS3, JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB, and RESTful APIs. ",
     },
 
     {
@@ -157,6 +159,14 @@ import project9 from './assets/work_logo/project9.png';
       degree: "Internship - Techplement (Frontend Developer Intern)",
     },
 
+     {
+      id: 1,
+      img: certificate1,
+      date: "Aug 2024",
+      desc: "I have completed the Responsive Web Design Developer certification from FreeCodeCamp, gaining practical skills in HTML, CSS, Flexbox, Grid, and responsive design techniques to build modern, mobile-friendly websites.",
+      degree: "FreeCodeCamp - Web Development Certification",
+    },
+
     
   ];
   
@@ -172,6 +182,18 @@ import project9 from './assets/work_logo/project9.png';
       webapp: "https://apnastay-js16.onrender.com/listings",
       isHosted: true
     }, 
+
+    {
+      id: 3,
+      title: "Meetra Real-Time Video Conferencing Platform",
+      description:
+      "Meetra Web is a real-time video calling and chat web app built with React, Express, and Socket.io. It allows users to join meetings as guests or through authentication, enabling seamless video communication, instant messaging, and user management powered by MongoDB and WebRTC.",
+      image: project7,
+      tags: ["Express.js", "React.js", "Node.js", "WebRTC", "Socket.IO.."],
+      github: "https://github.com/nikitatale/Meetra-Web",
+      webapp: "https://meetra-web-frontend.onrender.com/",
+      isHosted: true
+    },
     {
       id: 1,
       title: "QuickBlog - A blog on stories",
@@ -183,17 +205,6 @@ import project9 from './assets/work_logo/project9.png';
       webapp: "https://quick-blog-website.vercel.app/",
       isHosted: true
     }, 
-     {
-      id: 3,
-      title: "Meetra-Web",
-      description:
-      "Meetra Web is a real-time video calling and chat web app built with React, Express, and Socket.io. It allows users to join meetings as guests or through authentication, enabling seamless video communication, instant messaging, and user management powered by MongoDB and WebRTC.",
-      image: project7,
-      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "WebRTC", "Socket.IO.."],
-      github: "https://github.com/nikitatale/Meetra-Web",
-      webapp: "https://meetra-web-frontend.onrender.com/",
-      isHosted: true
-    },
 
      {
       id: 2,
@@ -220,6 +231,17 @@ import project9 from './assets/work_logo/project9.png';
     },
     {
       id: 5,
+      title: "AI-powered ThumbCraft",
+      description:
+       "ThumbCraft is a modern web application that generates AI-powered thumbnails for videos, social media posts, and more. Built with React, Tailwind CSS, and powered by @google/genai, ThumbCraft helps creators save time and create eye-catching thumbnails instantly.",
+      image: project10,
+      tags: ["React", "TailwindCSS", "Node.js", "Express.js", "AI Integration"],
+      github: "https://github.com/nikitatale/Hotel-Booking",
+      webapp: "https://bookease-hotel-booking-website.vercel.app/",
+      isHosted: true
+    },
+    {
+      id: 6,
       title: "Bookease Hotel Booking Website",
       description:
        "Bookease is a modern and responsive hotel booking website built with a focus on smooth user experience. It includes core frontend features with basic backend integration for user login functionality.",
