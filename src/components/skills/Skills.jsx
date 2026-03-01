@@ -63,7 +63,6 @@ function SkillCard({ skill, index, visible }) {
             overflow: "hidden",
           }}
         >
-        
           <div style={{
             position: "absolute", top: 0, left: "20%", right: "20%", height: 1,
             background: "linear-gradient(90deg,transparent,rgba(130,69,236,0.5),transparent)",
@@ -71,7 +70,6 @@ function SkillCard({ skill, index, visible }) {
             transition: "opacity 0.3s",
           }} />
 
-         
           <div style={{
             position: "absolute",
             width: 60, height: 60,
@@ -134,17 +132,11 @@ const Skills = () => {
     }, 220);
   };
 
-  
   const tabIcons = {
-    // Frontend: "⚡",  
-    Frontend: "",  
-    // Backend: "🛠️",
+    Frontend: "",
     Backend: "",
-    // Database: "🗄️",
     Database: "",
-    // Tools: "🔧",
     Tools: "",
-    // Languages: "💻",
     Languages: "",
   };
 
@@ -170,6 +162,7 @@ const Skills = () => {
           white-space: nowrap;
           position: relative;
           overflow: hidden;
+          flex-shrink: 0;
         }
         .skills-tab::before {
           content: '';
@@ -234,7 +227,6 @@ const Skills = () => {
           background: linear-gradient(90deg,rgba(130,69,236,0.5),transparent);
         }
 
-        /* Skill count badge */
         .skill-count {
           display: inline-flex;
           align-items: center;
@@ -250,9 +242,31 @@ const Skills = () => {
           line-height: 1;
         }
 
-        @media (max-width: 520px) {
-          .tabs-scroll { overflow-x: auto; padding-bottom: 6px; }
-          .tabs-scroll::-webkit-scrollbar { display: none; }
+        
+        .tabs-scroll {
+          overflow-x: auto;
+          padding-bottom: 6px;
+          -webkit-overflow-scrolling: touch;
+          /* Hide scrollbar across all browsers */
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        .tabs-scroll::-webkit-scrollbar {
+          display: none;
+        }
+
+       
+        .tabs-inner {
+          display: inline-flex;
+          gap: 8px;
+          padding: 6px;
+          background: rgba(7,5,20,0.6);
+          border: 1px solid rgba(130,69,236,0.15);
+          border-radius: 999px;
+          backdrop-filter: blur(12px);
+          flex-wrap: nowrap;
+          flex-shrink: 0;
+          min-width: max-content;
         }
       `}</style>
 
@@ -266,13 +280,11 @@ const Skills = () => {
           overflow: "hidden",
         }}
       >
-      
         <div style={{ position:"absolute", inset:0, pointerEvents:"none", overflow:"hidden", zIndex:0 }}>
           <div style={{ position:"absolute", width:420, height:420, borderRadius:"50%", background:"radial-gradient(circle,rgba(130,69,236,0.1),transparent 70%)", filter:"blur(90px)", top:"-5%", right:"-3%", }} />
           <div style={{ position:"absolute", width:320, height:320, borderRadius:"50%", background:"radial-gradient(circle,rgba(46,8,207,0.09),transparent 70%)", filter:"blur(80px)", bottom:"5%", left:"-3%", }} />
         </div>
 
-     
         <div
           ref={sectionRef}
           style={{
@@ -298,44 +310,38 @@ const Skills = () => {
           </p>
         </div>
 
-       
+     
         <div
-          className="tabs-scroll"
           style={{
             display: "flex",
             justifyContent: "center",
             marginBottom: "2.5rem",
-            position: "relative", zIndex: 1,
+            position: "relative",
+            zIndex: 1,
             opacity: sectionVisible ? 1 : 0,
             transform: sectionVisible ? "translateY(0)" : "translateY(16px)",
             transition: "opacity 0.7s 0.15s ease, transform 0.7s 0.15s ease",
           }}
         >
-          <div style={{
-            display: "flex",
-            gap: "8px",
-            padding: "6px",
-            background: "rgba(7,5,20,0.6)",
-            border: "1px solid rgba(130,69,236,0.15)",
-            borderRadius: 999,
-            backdropFilter: "blur(12px)",
-            flexWrap: "nowrap",
-          }}>
-            {tabs.map((tab) => (
-              <button
-                key={tab}
-                className={`skills-tab ${activeTab === tab ? "active" : ""}`}
-                onClick={() => handleTabChange(tab)}
-              >
-                <span className="skills-tab-icon">{tabIcons[tab] || "✦"}</span>
-                {tab}
-                <span className="skill-count">{skills[tab]?.length}</span>
-              </button>
-            ))}
+        
+          <div className="tabs-scroll" style={{ maxWidth: "100%" }}>
+          
+            <div className="tabs-inner">
+              {tabs.map((tab) => (
+                <button
+                  key={tab}
+                  className={`skills-tab ${activeTab === tab ? "active" : ""}`}
+                  onClick={() => handleTabChange(tab)}
+                >
+                  <span className="skills-tab-icon">{tabIcons[tab] || "✦"}</span>
+                  {tab}
+                  <span className="skill-count">{skills[tab]?.length}</span>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
-       
         <div
           className={`skills-grid ${animating ? "exit" : ""}`}
           style={{
@@ -357,7 +363,6 @@ const Skills = () => {
           ))}
         </div>
 
-      
         <div style={{
           textAlign: "center",
           marginTop: "3rem",
