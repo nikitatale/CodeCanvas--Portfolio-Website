@@ -131,7 +131,7 @@ import project10 from './assets/work_logo/project10.png';
       id: 5,
       img: certificate5,
       degree: "The Complete Full-Stack Web Development Bootcamp",
-      date: "Oct 2024 - Dec 2025",
+      date: "Dec 2025",
       desc: "I have successfully completed The Complete Full-Stack Web Development Bootcamp from Udemy, where I gained hands-on experience in HTML5, CSS3, JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB, and RESTful APIs. ",
     },
 
