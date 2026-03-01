@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: <FaMailBulk className="text-2xl text-gray-400" /> ,
     label: "Email",
-    value: "nikita@example.com",
-    href: "mailto:nikita@example.com",
+    value: "talenikita3@gmail.com ",
+    href: "mailto:talenikita3@gmail.com ",
   },
   {
     icon: <FaLinkedin className="text-2xl text-gray-400" />,
