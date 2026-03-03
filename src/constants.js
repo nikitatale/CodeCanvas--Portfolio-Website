@@ -81,24 +81,6 @@ import project10 from './assets/work_logo/project10.png';
   export const experiences = [
     {
       id: 0,
-      img: accenture,
-      role: "Virtual Experience Program",
-      company: "Accenture New York, United States",
-      date: "Oct 2024 - Nov 2024",
-      desc: "Analyzed user experience (UX) challenges and proposed innovative design solutions to improve usability. Designed and implemented 5+ reusable UI components, improving development efficiency and reducing time. ",
-      skills: [
-        "User Interface Design",
-        "Critical Thinking",
-        "User Requirements",
-        "Web Development",
-        "Product Development",
-        "Project Management",
-        "Software Development Life Cycle (SDLC)",
-        "Databases",
-      ],
-    },
-    {
-      id: 1,
       img: techplement,
       role: "Frontend Developer Intern",
       company: "TECHPLEMENT",
@@ -114,6 +96,25 @@ import project10 from './assets/work_logo/project10.png';
         "Tailwind CSS",
         "Team Leadership",
         "Front-End Development"
+      ],
+    },
+
+    {
+      id: 1,
+      img: accenture,
+      role: "Project Virtual Intern",
+      company: "Accenture New York, United States",
+      date: "Oct 2024 - Nov 2024",
+      desc: "Analyzed user experience (UX) challenges and proposed innovative design solutions to improve usability. Designed and implemented 5+ reusable UI components, improving development efficiency and reducing time. ",
+      skills: [
+        "User Interface Design",
+        "Critical Thinking",
+        "User Requirements",
+        "Web Development",
+        "Product Development",
+        "Project Management",
+        "Software Development Life Cycle (SDLC)",
+        "Databases",
       ],
     },
   ];
