@@ -56,7 +56,7 @@ src/
 │   ├── Projects/
 │   └── Contact/
 ├── constants/
-│   └── index.js       # Skills, projects data
+│   └── index.js     
 └── App.jsx
 ```
 
