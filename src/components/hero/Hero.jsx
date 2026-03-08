@@ -325,9 +325,10 @@ const Hero = () => {
               </div>
 
               <div className={`enter d5 ${m}`}>
-                <p style={{ color:'rgba(255,255,255,0.36)', fontSize:'clamp(0.87rem,1.4vw,1rem)', lineHeight:1.9, maxWidth:460, fontWeight:300, margin:0 }}>
-                  MERN Stack Developer passionate about building seamless, responsive, and user-friendly web applications. Turning ideas into fast, scalable, and interactive apps.
-                </p>
+              <p style={{ color:'rgba(255,255,255,0.36)', fontSize:'clamp(0.87rem,1.4vw,1rem)', lineHeight:1.9, maxWidth:460, fontWeight:300, margin:0 }}>
+               I build things for the web - from idea to deployed. <br />
+               If it runs in a browser, I probably care about it. 
+               </p>
               </div>
 
               
