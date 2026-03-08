@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Tilt from "react-parallax-tilt";
 import { skills } from "../../constants";
+import LeetCodeStats from "./LeetCodeStats";
 
 
 function useReveal() {
@@ -247,7 +248,6 @@ const Skills = () => {
           overflow-x: auto;
           padding-bottom: 6px;
           -webkit-overflow-scrolling: touch;
-          /* Hide scrollbar across all browsers */
           -ms-overflow-style: none;
           scrollbar-width: none;
         }
@@ -374,6 +374,10 @@ const Skills = () => {
             {Object.values(skills).flat().length}+ technologies across {tabs.length} categories
           </p>
         </div>
+       
+      <div style={{ position: "relative", zIndex: 1 }}>
+        <LeetCodeStats/>
+         </div>
       </section>
     </>
   );
