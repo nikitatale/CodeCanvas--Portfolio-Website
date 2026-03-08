@@ -300,20 +300,34 @@ const About = () => {
               </h2>
             </div>
 
-            <p style={{
-              color:"rgba(255,255,255,0.38)",
-              fontSize:"clamp(0.87rem,1.4vw,1rem)",
-              lineHeight:1.9,
-              fontWeight:300,
-              maxWidth:520,
-            }}>
-              I'm a passionate full-stack developer specializing in the MERN stack
-              (MongoDB, Express.js, React, and Node.js), focused on building scalable,
-              user-centric web applications. I create seamless digital experiences by
-              combining responsive React frontends with robust Node.js backends. With
-              expertise in modern JavaScript, RESTful APIs, and cloud deployment, I
-              transform complex problems into elegant solutions that deliver real value.
-            </p>
+
+         <p style={{
+  color:"rgba(255,255,255,0.38)",
+  fontSize:"clamp(0.87rem,1.4vw,1rem)",
+  lineHeight:1.9, fontWeight:300, maxWidth:520,
+}}>
+  I'm Nikita - a full-stack developer who genuinely enjoys the process of
+  building things from scratch.
+</p> 
+
+<p style={{
+  color:"rgba(255,255,255,0.38)",
+  fontSize:"clamp(0.87rem,1.4vw,1rem)",
+  lineHeight:1.9, fontWeight:300, maxWidth:520,
+}}>
+  My stack is MERN - but honestly, I'll pick up whatever the project needs.
+  I've built real-time apps, e-commerce platforms, and blog systems - each
+  one teaching me something the last one didn't.
+</p>
+
+<p style={{
+  color:"rgba(255,255,255,0.38)",
+  fontSize:"clamp(0.87rem,1.4vw,1rem)",
+  lineHeight:1.9, fontWeight:300, maxWidth:520,
+}}>
+  When I'm not coding, I'm probably debugging something that "should have worked." <br />
+  Every bug has a story - and I enjoy reading them. 
+</p>
 
           
             <div>
