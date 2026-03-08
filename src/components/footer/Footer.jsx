@@ -16,7 +16,7 @@ const navLinks = [
 const socials = [
   { icon: <FaGithub size={16} />,   label: "GitHub",   href: "https://github.com/nikitatale" },
   { icon: <FaLinkedin size={16} />, label: "LinkedIn",  href: "https://www.linkedin.com/in/nikita-tale" },
-  { icon: <SiLeetcode size={16} />,  label: "Twitter",   href: "https://leetcode.com/u/AauvBP7771" },
+  { icon: <SiLeetcode size={16} />,  label: "Twitter",   href: "https://leetcode.com/u/NikitaTale" },
 ];
 
 const Footer = () => {
