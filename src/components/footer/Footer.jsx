@@ -167,7 +167,7 @@ const Footer = () => {
                 color:"rgba(255,255,255,0.32)", fontSize:"0.83rem", lineHeight:1.8,
                 fontWeight:300, maxWidth:280, margin:"0 0 20px",
               }}>
-                MERN Stack Developer crafting seamless, scalable, and user-friendly web experiences.
+                 Full-stack by skill, detail-obsessed by nature.
               </p>
 
             
