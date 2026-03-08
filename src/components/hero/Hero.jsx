@@ -194,7 +194,7 @@ const Hero = () => {
           background-size:180px;
         }
 
-        /* ══ Layout classes ══ */
+        
         .hero-grid {
           display: flex;
           justify-content: space-between;
@@ -209,7 +209,7 @@ const Hero = () => {
           max-width: 580px;
         }
 
-        /* CTA row — desktop: left-aligned row */
+        
         .cta-row {
           display: flex;
           align-items: center;
@@ -217,13 +217,13 @@ const Hero = () => {
           flex-wrap: wrap;
           margin-top: 0.4rem;
         }
-        /* Socials cluster */
+        
         .socials-row {
           display: flex;
           gap: 0.55rem;
           align-items: center;
         }
-        /* Stats row */
+      
         .stats-row {
           display: flex;
           gap: 0.75rem;
@@ -231,41 +231,38 @@ const Hero = () => {
           flex-wrap: wrap;
         }
 
-        /* 
-           MOBILE  ≤ 768px
-           Everything centers
-        */
+       
         @media (max-width: 768px) {
 
-          /* Stack image above text */
+         
           .hero-grid {
             flex-direction: column-reverse !important;
           }
 
-          /* Center all text-side content */
+         
           .hero-left {
             align-items: center !important;
             text-align: center !important;
             max-width: 100% !important;
           }
 
-          /* Center the CTA button + socials row */
+         
           .cta-row {
             justify-content: center !important;
             width: 100%;
           }
 
-          /* Center social icons */
+          
           .socials-row {
             justify-content: center !important;
           }
 
-          /* Center stats */
+         
           .stats-row {
             justify-content: center !important;
           }
 
-          /* Hide floating tags */
+          
           .float-tag {
             display: none !important;
           }
@@ -343,7 +340,7 @@ const Hero = () => {
                 <div className="socials-row">
                   <SocialBtn href="https://github.com/nikitatale" label="GitHub" icon={<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>} />
                   <SocialBtn href="https://www.linkedin.com/in/nikita-tale" label="LinkedIn" icon={<svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM6.84 20.45H3.83V9h3.01v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>} />
-                  <SocialBtn href="https://leetcode.com/u/AauvBP7771" label="Leetcode" icon={<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>} />
+                  <SocialBtn href="https://leetcode.com/u/NikitaTale" label="Leetcode" icon={<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>} />
                 </div>
               </div>
 
