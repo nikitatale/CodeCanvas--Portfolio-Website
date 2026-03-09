@@ -174,11 +174,11 @@ import project10 from './assets/work_logo/project10.png';
   export const projects = [
     {
       id: 0,
-      title: "ApnaStay - Find Your Perfect Stay!",
+      title: "ApnaStay - Full Stack Travel Listing Platform!",
       description:
-       "Discover unique stays, cozy homes, and premium accommodations with ApnaStay, your go-to platform for hassle-free vacation rentals. Browse listings, explore locations. Powered by a full MERN stack for a smooth, responsive experience.",
+       "ApnaStay is an AI-powered travel platform where users can explore unique stays, read smart summaries of reviews, and share their own experiences with the community.",
       image: project9,
-      tags: ["MongoDB", "Express.js", "EJS", "Node.js", "Bootstrap", "MVC"],
+      tags: ["Express.js", "Node.js", "EJS", "AI Features Groq (LLaMA 3.1)", "MongoDB", "MVC", "Bootstrap"],
       github: "https://github.com/nikitatale/ApnaStay",
       webapp: "https://apnastay-js16.onrender.com/listings",
       isHosted: true
