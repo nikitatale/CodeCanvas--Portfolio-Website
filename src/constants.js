@@ -3,6 +3,7 @@ import html from "./assets/tech_logo/html.png";
 import css from "./assets/tech_logo/css.png";
 import javaScript from "./assets/tech_logo/javascript.png";
 import reactJs from "./assets/tech_logo/reactjs.png";
+import nextJs from "./assets/tech_logo/nextjs.png";
 import redux from "./assets/tech_logo/redux.png";
 import bootstrap from "./assets/tech_logo/bootstrap.png";
 import tailwind from "./assets/tech_logo/tailwindcss.png";
@@ -53,6 +54,7 @@ import project10 from './assets/work_logo/project10.png';
       { name: "CSS", img: css },
       { name: "JavaScript", img: javaScript },
       { name: "React JS", img: reactJs },
+      { name: "Next JS", img: nextJs },
       { name: "Redux", img: redux },
       { name: "Bootstrap", img: bootstrap },
       { name: "Tailwind CSS", img:  tailwind},
