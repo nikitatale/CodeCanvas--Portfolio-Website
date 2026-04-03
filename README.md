@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎨 CodeCanvas — Portfolio Website
+# 🎨 CodeCanvas - Portfolio Website
 
 **Personal portfolio of Nikita Tale | Full-Stack MERN Developer**
 
@@ -14,20 +14,20 @@
 
 ## ✨ Overview
 
-CodeCanvas is my personal developer portfolio — a fast, responsive, and visually refined website built to showcase my projects, skills, and experience as a Full-Stack MERN Developer.
+CodeCanvas is my personal developer portfolio - a fast, responsive, and visually refined website built to showcase my projects, skills, and experience as a Full-Stack MERN Developer.
 
 ---
 
 ## 🚀 Features
 
-- 🎨 **Modern UI** — Glassmorphism design with smooth animations & parallax tilt effects
-- 📱 **Fully Responsive** — Works seamlessly across all screen sizes
-- ⚡ **Smooth Navigation** — Section-based scrolling with animated transitions
-- 🧠 **Skills Section** — Tabbed tech stack display with interactive skill cards
-- 📊 **LeetCode Stats** — Live DSA progress card with heatmap
-- 💼 **Projects Showcase** — Highlighted work with live demo & GitHub links
-- 📬 **Contact Form** — Functional form powered by EmailJS
-- 🔗 **Social Links** — LinkedIn, GitHub integrated
+- 🎨 **Modern UI** - Glassmorphism design with smooth animations & parallax tilt effects
+- 📱 **Fully Responsive** - Works seamlessly across all screen sizes
+- ⚡ **Smooth Navigation** - Section-based scrolling with animated transitions
+- 🧠 **Skills Section** - Tabbed tech stack display with interactive skill cards
+- 📊 **LeetCode Stats** - Live DSA progress card with heatmap
+- 💼 **Projects Showcase** - Highlighted work with live demo & GitHub links
+- 📬 **Contact Form** - Functional form powered by EmailJS
+- 🔗 **Social Links** - LinkedIn, GitHub integrated
 
 ---
 
