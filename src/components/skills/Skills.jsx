@@ -136,9 +136,7 @@ const Skills = () => {
   const tabIcons = {
     Frontend: "",
     Backend: "",
-    Database: "",
     Tools: "",
-    Languages: "",
   };
 
   return (
