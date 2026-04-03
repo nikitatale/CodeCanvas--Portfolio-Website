@@ -14,7 +14,7 @@
 
 ## ✨ Overview
 
-CodeCanvas is my personal developer portfolio — a fast, responsive, and visually refined website built to showcase my projects, skills, and experience as a Full-Stack MERN Developer.
+CodeCanvas is my personal developer portfolio - a fast, responsive, and visually refined website built to showcase my projects, skills, and experience as a Full-Stack MERN Developer.
 
 ---
 
