@@ -298,7 +298,7 @@ const Hero = () => {
             <div className="hero-left">
 
               <div className={`enter d1 ${m}`}>
-                <span className="badge"><span className="badge-dot" />Available for Freelance Work</span>
+                <span className="badge"><span className="badge-dot" />Open to Full-Time Opportunities</span>
               </div>
 
               <div className={`enter d2 ${m}`}>
