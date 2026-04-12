@@ -46,6 +46,7 @@ import project7 from './assets/work_logo/project7.png';
 import project8 from './assets/work_logo/project8.png';
 import project9 from './assets/work_logo/project9.png';
 import project10 from './assets/work_logo/project10.png';
+import project11 from './assets/work_logo/project11.png';
 
 
  export const skills = {
@@ -197,6 +198,19 @@ import project10 from './assets/work_logo/project10.png';
       webapp: "https://meetra-web-frontend.onrender.com/",
       isHosted: true
     },
+    
+      {
+      id: 7,
+      title: "CareerPilot - AI-Powered Career Platform",
+      description:
+       "CareerPilot is a modern career platform designed to help users discover opportunities, build professional profiles, and explore jobs using intelligent search. From networking to AI-powered job discovery - everything is built to simplify your career journey.",
+      image: project11,
+      tags: ["Next.js", "Express.js", "Node.js", "AI Features Groq (LLaMA 3.1)", "JSearch (RapidAPI)", "Tailwind"],
+      github: "https://github.com/nikitatale/CareerPilot",
+      webapp: "https://career-pilot-omega.vercel.app",
+      isHosted: true
+    }, 
+
     {
       id: 1,
       title: "QuickBlog - A blog on stories",
