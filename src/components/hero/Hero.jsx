@@ -317,7 +317,7 @@ const Hero = () => {
                 <h2 style={{ margin:0, minHeight:'2rem', display:'flex', alignItems:'center', justifyContent:'inherit', gap:6, fontFamily:"'Space Mono',monospace", fontSize:'clamp(0.9rem,2vw,1.2rem)', fontWeight:400, color:'#a855f7' }}>
                   <span style={{ color:'rgba(255,255,255,0.25)' }}>{'>'}</span>
                   <ReactTypingEffect
-                    text={['Full-Stack Developer', 'MERN Stack Engineer', 'Competitive Coder']}
+                    text={['Frontend Developer (React.js)', 'MERN Stack Developer', 'Competitive Coder']}
                     speed={90} eraseSpeed={45} typingDelay={500} eraseDelay={2000}
                     cursorRenderer={(cursor) => <span style={{ color:'#8245ec', fontWeight:700 }}>{cursor}</span>}
                   />
