@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaCode, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -174,6 +174,9 @@ const Navbar = () => {
             </a>
             <a href="https://www.linkedin.com/in/nikita-tale" target="_blank" rel="noopener noreferrer" className="nav-social">
               <FaLinkedin size={15} />
+            </a>
+             <a href="https://leetcode.com/u/NikitaTale" target="_blank" rel="noopener noreferrer" className="nav-social">
+             <FaCode size={15} />
             </a>
           </div>
 
