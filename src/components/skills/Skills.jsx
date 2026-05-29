@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Tilt from "react-parallax-tilt";
 import { skills } from "../../constants";
-import LeetCodeStats from "./LeetCodeStats";
+
 
 
 function useReveal() {
@@ -373,9 +373,7 @@ const Skills = () => {
           </p>
         </div>
        
-      <div style={{ position: "relative", zIndex: 1 }}>
-        <LeetCodeStats/>
-         </div>
+ 
       </section>
     </>
   );

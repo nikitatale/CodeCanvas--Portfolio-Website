@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
+import LeetCodeStats from "./LeetCodeStats";
 
 
 function useLockBody(active) {
@@ -443,6 +444,10 @@ const Projects = () => {
 
     
         <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
+
+        <div style={{ position: "relative", zIndex: 1 }}>
+        <LeetCodeStats/>
+         </div>
       </section>
     </>
   );
