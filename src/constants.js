@@ -47,7 +47,7 @@ import project8 from './assets/work_logo/project8.png';
 import project9 from './assets/work_logo/project9.png';
 import project10 from './assets/work_logo/project10.png';
 import project11 from './assets/work_logo/project11.png';
-
+import project12 from './assets/work_logo/project12.png';
 
  export const skills = {
     Frontend: [
@@ -208,6 +208,18 @@ import project11 from './assets/work_logo/project11.png';
       tags: ["Next.js", "Express.js", "Node.js", "AI Features Groq (LLaMA 3.1)", "JSearch (RapidAPI)", "Tailwind"],
       github: "https://github.com/nikitatale/CareerPilot",
       webapp: "https://career-pilot-omega.vercel.app",
+      isHosted: true
+    }, 
+
+      {
+      id: 8,
+      title: "CareSync - Hospital Staff Management System",
+      description:
+       "A full-stack web application for managing hospital staff operations including attendance tracking, leave management, payslip generation, and automated email reminders via background jobs.",
+      image: project12,
+      tags: ["React.js", "Express.js", "Node.js", "MongoDB + Mongoose"],
+      github: "https://github.com/nikitatale/CareSync-Hospital-Management",
+      webapp: "https://care-sync-frontend-pi.vercel.app/login",
       isHosted: true
     }, 
 
