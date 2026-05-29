@@ -269,7 +269,7 @@ const Footer = () => {
               fontSize:"0.62rem", color:"rgba(255,255,255,0.22)",
               letterSpacing:"0.06em", margin:0,
             }}>
-              © 2025 <span style={{ color:"rgba(168,85,247,0.6)" }}>Nikita Tale</span>. All rights reserved.
+              © 2026 <span style={{ color:"rgba(168,85,247,0.6)" }}>Nikita Tale</span>. All rights reserved.
             </p>
 
             <div style={{ display:"flex", alignItems:"center", gap:12 }}>
