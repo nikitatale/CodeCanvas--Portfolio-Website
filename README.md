@@ -18,7 +18,7 @@ CodeCanvas is my personal developer portfolio - a fast, responsive, and visually
 
 ## 🖼️ Demo Preview
 
-![CodeCanvas Preview](/public/demo.png)
+![CodeCanvas Preview](public/demo.png)
 
 ---
 
