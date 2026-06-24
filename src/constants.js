@@ -175,6 +175,17 @@ import project12 from './assets/work_logo/project12.png';
   ];
   
   export const projects = [
+      {
+      id: 9,
+      title: "SERP-IQ - Rank Smarter, Not Harder",
+      description:
+       "SERP-IQ is a full-stack AI-powered SEO intelligence platform that helps you analyze websites, track keyword rankings on Google, and get detailed SEO audit reports - all in one place.",
+      image: project12,
+      tags: ["React.js", "Express.js", "Node.js", "Playwright"],
+      github: "https://github.com/nikitatale/SERP-IQ",
+      webapp: "https://serp-iq-seo.vercel.app",
+      isHosted: true
+    }, 
     {
       id: 0,
       title: "ApnaStay - Full Stack Travel Listing Platform!",
