@@ -159,7 +159,7 @@ import project13 from './assets/work_logo/project13.png';
     {
       id: 4,
       img: certificate4,
-      date: "Dec 2021",
+      date: "Dec 2024",
       desc: "I completed a frontend developer internship at Techplement in December 2024, where I gained hands-on experience in HTML, CSS, JavaScript, and responsive web design, contributing to real-world web development projects.",
       degree: "Internship - Techplement (Frontend Developer Intern)",
     },
