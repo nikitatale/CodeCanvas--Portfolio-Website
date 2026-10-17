@@ -277,8 +277,8 @@ import project13 from './assets/work_logo/project13.png';
        "ThumbCraft is a modern web application that generates AI-powered thumbnails for videos, social media posts, and more. Built with React, Tailwind CSS, and powered by @google/genai, ThumbCraft helps creators save time and create eye-catching thumbnails instantly.",
       image: project10,
       tags: ["React", "TailwindCSS", "Node.js", "Express.js", "AI Integration"],
-      github: "https://github.com/nikitatale/Hotel-Booking",
-      webapp: "https://bookease-hotel-booking-website.vercel.app/",
+      github: "https://github.com/nikitatale/ThumbCraft",
+      webapp: "https://github.com/nikitatale/ThumbCraft",
       isHosted: true
     },
     {
